@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+
+:root{
+
+--Pale-blue: hsl(225, 100%, 94%);
+--Bright-blue: hsl(245, 75%, 52%);
+
+
+
+--Very-pale-blue: hsl(225, 100%, 98%);
+--Desaturated-blue: hsl(224, 23%, 55%);
+--Dark-blue: hsl(223, 47%, 23%);
+}
+
+*{
+    margin: 0px;
+}
+img{
+    max-width: 100%;
+    
+    
+}
+
+
+body{
+    
+    font-family: "Red Hat Display", sans-serif;
+    background-image: url(images/pattern-background-desktop.svg);
+    font-size: 16px;
+    text-align: center;
+}
+
+.container{
+    background-color: white;
+    margin: 3rem;
+    border-radius:  1rem;
+    
+}
+
+.container > img{
+    width: 100%;
+    border-radius: 1rem 1rem 0 0;
+}
+
+#description{
+    padding: 0 30px;
+    color: var(--Desaturated-blue);
+}
+.plan{
+    
+    background-color: var(--Very-pale-blue);
+    margin: 20px auto;
+    width: 90%;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 10px;
+
+}
+
+.container .plan article{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container .plan article img{
+    margin-right: 10px;
+}
+
+.container button{
+    border: none;
+    border-radius: 3px;
+    padding: 5px 10px;
+}
+
+.plan button{
+    background-color: transparent;
+    color: var(--Bright-blue);
+    text-decoration: underline;
+}
+
+.buttons{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.payment{
+    margin: 5px 10px;
+    background-color: var(--Bright-blue);
+    color: white;
+    padding: 10px;
+    
+}
+
+.cancel{
+    margin-bottom: 10px;
+    background-color: transparent;
+}
+
+.payment:hover, .cancel:hover{
+    opacity: 0.9;
+}
+
+
+.attribution {
+
+    font-size: 11px;
+    text-align: center;
+    
+}
+
+.attribution a {
+
+    color: hsl(228, 45%, 44%);
+}
+
